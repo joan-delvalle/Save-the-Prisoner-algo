@@ -1,1 +1,1 @@
-# Save-the-Prisoner-algo
+# Save-the-Prisoner- This code solves the Save the Prisoner! problem by calculating which prisoner receives the last candy after distributing `m` candies starting from prisoner `s` in a circle of `n` prisoners. The key formula `(s + m - 1) % n` finds the position efficiently, and if the result is `0`, it wraps around to prisoner `n`.
